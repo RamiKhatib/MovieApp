@@ -1,0 +1,1 @@
+appmodule.controller('contentCtrl',function ($scope) {});
