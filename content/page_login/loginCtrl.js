@@ -1,0 +1,1 @@
+appmodule.controller('loginCtrl',function ($scope) {});
