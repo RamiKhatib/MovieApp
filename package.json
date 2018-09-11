@@ -1,0 +1,15 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiKhatib/MovieApp.git"
+  },
+  "author": "Rami Khatib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RamiKhatib/MovieApp/issues"
+  },
+  "homepage": "https://github.com/RamiKhatib/MovieApp#readme"
+}
