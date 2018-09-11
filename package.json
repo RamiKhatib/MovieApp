@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/RamiKhatib/MovieApp/issues"
   },
-  "homepage": "https://github.com/RamiKhatib/MovieApp#readme"
+  "homepage": "https://github.com/RamiKhatib/MovieApp#readme",
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
 }
