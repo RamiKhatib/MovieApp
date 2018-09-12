@@ -9,6 +9,7 @@ Discription
     1. [Server](#Server)
     2. [Client](#Client)
 2. [API](#API)
+3. [License](#License)
 
 ## Installation
 
