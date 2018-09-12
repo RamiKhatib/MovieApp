@@ -1,6 +1,8 @@
-appmodule.controller('loginCtrl',function ($scope) {
+appmodule.controller('loginCtrl',function ($scope,$timeout) {
     // Did last submit fail ?
     $scope.didSubmitFail = false;
+
+    $scope.inputColor = "#ced4da";
 
     // Submit form : - let user submit credentials and check if valid
     //               - update didSubmitFail
@@ -12,6 +14,13 @@ appmodule.controller('loginCtrl',function ($scope) {
         $scope.user.submit();
         if ($scope.user.isConnected){
             $scope.didSubmitFail = false;
-        } else $scope.didSubmitFail = true;
+        } else {
+            $scope.didSubmitFail = true;
+            $scope.inputColor = "red";
+            $timeout(function() {
+                $scope.didSubmitFail = false;
+                $scope.inputColor = "#ced4da";
+                }, 3000);
+        }
     }
 });
