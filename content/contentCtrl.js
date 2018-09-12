@@ -1,1 +1,1 @@
-appmodule.controller('contentCtrl',function ($scope) {});
+appmodule.controller('contentCtrl' ,function () {});

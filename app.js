@@ -1,1 +1,1 @@
-var appmodule = angular.module('movieapp', []);
+var appmodule = angular.module('movieapp', ['ngResource']);
